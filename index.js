@@ -65,15 +65,14 @@ const generateReadme = ({title,description,installation,usage,guidelines,instruc
 
 ## License
 
-![Github licence]${license}
+![Github licence]${license}(http://img.shields.io/badge/license-${license})
 
 ## Description
 
 ${description}
 
 ## Table of Contents
-
-* [Installation](#installation)
+* [installation](#installation)
 * [Usage](#usage)
 * [Guidelines](#guidelines)
 * [Instructions](#instructions)
@@ -81,11 +80,7 @@ ${description}
 * [Contribute](#contribute)
 * [Test](#tests)
 
-## Installation
-${installation}
 
-## Usage
-${usage}
 
 ## Guidelines
 ${guidelines}
@@ -93,10 +88,16 @@ ${guidelines}
 ## instuctions
 ${instructions}
 
+## Installation
+${installation}
+
+## Usage
+${usage}
+
 ## License
 The project is licensed under${license}
 
-## How to Contribute
+## Contribute
 ${contribute}
 
 ## Tests

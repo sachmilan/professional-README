@@ -1,16 +1,15 @@
-# qqq
+# Professional Readme Generator
 
 ## License
 
-![Github licence]MIT
+![Github licence]MIT(http://img.shields.io/badge/license-MIT)
 
 ## Description
 
-qqq
+readme
 
 ## Table of Contents
-
-* [Installation](#installation)
+* [installation](#installation)
 * [Usage](#usage)
 * [Guidelines](#guidelines)
 * [Instructions](#instructions)
@@ -18,26 +17,28 @@ qqq
 * [Contribute](#contribute)
 * [Test](#tests)
 
-## Installation
-qqq
 
-## Usage
-qqq
 
 ## Guidelines
-qqq
+you can contribute to it 
 
 ## instuctions
-qqq
+it is tested
+
+## Installation
+follow the readme file given in the package
+
+## Usage
+follow the file
 
 ## License
 The project is licensed underMIT
 
-## How to Contribute
-qqqq
+## Contribute
+i will like your contribution
 
 ## Tests
-qqq
+you can follow the guidlines and run it and you can test it
 
 ## Contact
-For more information you can contact me at qqq and my name is qqq.
+For more information you can contact me at sachmilan11@gmail.com and my name is Sachmilan.
