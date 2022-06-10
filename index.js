@@ -1,0 +1,114 @@
+const inq = require('inquirer');
+const fs = require('fs');
+
+const questions =() =>{
+return inq.prompt([
+        {type:'input',
+         name:'title',
+         message: 'What is your project title?',
+        },
+
+        {type:'input',
+         name:'description',
+         message: 'Write a description of the application',
+        },
+
+        {type:'input',
+         name:'installation',
+         message: 'Type in installation instruction',
+        },
+
+        {type:'input',
+         name:'usage',
+         message: 'Type in usage information',
+        },
+
+        {type:'input',
+         name:'guidelines',
+         message: 'Type in contribution guidlines',
+        },
+
+        {type:'input',
+         name:'instructions',
+         message: 'Type in test instructions',
+        },
+
+        {type:'list',
+         name:'license',
+         message: 'Choose the license',
+         choices: ['MIT','APACHE 2.0','GPL 3.0','BSD 3','None'],
+        },
+
+        {type:'input',
+         name:'yourName',
+         message: 'What is your name?',
+        },
+
+        {type:'input',
+         name:'emailAddress',
+         message: 'what is your email address?',
+        },
+
+        {type:'input',
+         name:'contribute',
+         message: 'How you can cotribute',
+        },
+
+        {type:'input',
+         name:'tests',
+         message: 'How you can test it',
+        },
+    ])}
+
+const generateReadme = ({title,description,installation,usage,guidelines,instructions,license,yourName,emailAddress, contribute,tests}) =>
+`# ${title}
+
+## License
+
+![Github licence]${license}
+
+## Description
+
+${description}
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Guidelines](#guidelines)
+* [Instructions](#instructions)
+* [License](#license)
+* [Contribute](#contribute)
+* [Test](#tests)
+
+## Installation
+${installation}
+
+## Usage
+${usage}
+
+## Guidelines
+${guidelines}
+
+## instuctions
+${instructions}
+
+## License
+The project is licensed under${license}
+
+## How to Contribute
+${contribute}
+
+## Tests
+${tests}
+
+## Contact
+For more information you can contact me at ${emailAddress} and my name is ${yourName}.
+`
+const init = () =>{
+    questions()
+        .then((answers) => fs.writeFileSync('README.md', generateReadme(answers)))
+        .then(() => console.log('Successfully wrote to README.md'))
+        .catch((err) => console.error(err))};
+
+init();
