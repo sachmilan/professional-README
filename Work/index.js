@@ -108,8 +108,8 @@ For more information you can contact me at ${emailAddress} and my name is ${your
 `
 const init = () =>{
     questions()
-        .then((answers) => fs.writeFileSync('README1.md', generateReadme(answers)))
-        .then(() => console.log('Successfully wrote to README1.md'))
+        .then((answers) => fs.writeFileSync('README.md', generateReadme(answers)))
+        .then(() => console.log('Successfully wrote to README.md'))
         .catch((err) => console.error(err))};
 
 init();

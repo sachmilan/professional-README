@@ -1,4 +1,4 @@
-# q
+# Professional Readme
 
 ## License
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-q
+Professional Readme
 
 ## Table of Contents
 * [installation](#installation)
@@ -20,25 +20,25 @@ q
 
 
 ## Guidelines
-q
+you can look for the better ways to do it
 
 ## instuctions
-qq
+it is tested
 
 ## Installation
-q
+follow the readme given
 
 ## Usage
-qq
+watch the video
 
 ## License
 The project is licensed underMIT
 
 ## Contribute
-q
+you can look for the better ways to contribute to it
 
 ## Tests
-q
+you can run it and see if there are any bugs in there
 
 ## Contact
-For more information you can contact me at q and my name is q.
+For more information you can contact me at sachilansingh@gmail.com and my name is Sachmilan Singh.
